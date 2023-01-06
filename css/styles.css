@@ -18,6 +18,7 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	min-height: 600px;
 }
 
 .body1 .left {
@@ -34,10 +35,9 @@
 
 .body2 {
 	display: flex;
-	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-	min-height: 400px;
+	min-height: 600px;
 }
 
 .body2 .right {
@@ -49,6 +49,13 @@
 .body2 img {
 	max-height: 10em;
 	width: auto;
+}
+
+.body3 {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 600px;
 }
 
 .footer {
