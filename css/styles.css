@@ -36,7 +36,7 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	min-height: 200%;
+	min-height: 400px;
 }
 
 .body2 .right {
@@ -51,15 +51,12 @@
 	flex: 1 1 auto;
 }
 
-.body .img {
-	display: flex;
-	flex-direction: column;
-}
-
 .body2 img {
+	flex: 0 1 0;
 	max-height: 10em;
 	border: 1px solid black;
 	width: auto;
+	justify-content: center;
 }
 
 .footer {
