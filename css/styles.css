@@ -1,7 +1,8 @@
+
 body {
-	font-family: sans-serif;
 	color: #168f50;
 	background-color: #eeabce;
+	font-family: 'Inter', sans-serif;
 }
 
 img {
@@ -19,11 +20,11 @@ img {
 	align-items: center;
 }
 
-.navbar h2 {
+.navbar .name {
 	flex: 1 1 auto;
 }
 
-.navbar p {
+.navbar h3 {
 	padding: 0 .5em 0 .5em;
 	flex: 0 1 auto;
 	justify-content: flex-end;
