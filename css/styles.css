@@ -1,3 +1,7 @@
+a {
+	text-decoration: none;
+	color: #168f50;
+}
 
 body {
 	color: #168f50;
@@ -61,6 +65,7 @@ img {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	max-width: 30%;
 }
 
 .body2 img {
@@ -73,7 +78,6 @@ img {
 .body3 {
 	display: flex;
 	align-items: center;
-	flex-direction: row;
 	justify-content: space-around;
 	min-height: 600px;
 }
@@ -81,6 +85,21 @@ img {
 .body3 img {
 	max-height: 13em;
 	width: auto;
+}
+
+
+.body3 .right {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	max-width: 30%;
+}
+
+.about,.contact {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	min-height: 600px;
 }
 
 .footer {
