@@ -7,11 +7,13 @@ body {
 	color: #168f50;
 	background-color: #eeabce;
 	font-family: 'Inter', sans-serif;
+	font-smooth: 2em;
 }
 
 img {
 	border-radius: 3px; 
 	border: 3px solid black;
+	margin: 0 10px 0 0;
 }
 
 .container {
@@ -30,6 +32,8 @@ img {
 
 .navbar .name {
 	flex: 1 1 auto;
+	font-weight: 900;
+	font-size: 1.5rem;
 }
 
 .navbar h3 {
@@ -50,6 +54,7 @@ img {
 	display: flex;
 	justify-content: center;
 	flex: 1 1 auto;
+	font-size: 1rem;
 }
 
 .body1 img {
